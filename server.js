@@ -11,7 +11,7 @@ app.use(express.json());
 // app.use(bodyParser.json); // used for parsing the input data from front end
 
 //DB config===================================================
-const connection_url = `mongodb+srv://Kishan:Gannasicalil1!@cluster0.q3wxm.mongodb.net/<dbname>?retryWrites=true&w=majority`;
+const connection_url = `mongodb+srv://Kishan:<Password>@cluster0.q3wxm.mongodb.net/<dbname>?retryWrites=true&w=majority`;
 mongoose.connect(connection_url, {
   useCreateIndex: true,
   useNewUrlParser: true,
